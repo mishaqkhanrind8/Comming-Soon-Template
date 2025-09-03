@@ -33,6 +33,9 @@ height: 100vh;
 
 .navbar-brand {
   padding: 8px 6px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #ff4500;
 }
 
 .container-middle {
