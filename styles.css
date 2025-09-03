@@ -105,4 +105,12 @@ height: 100vh;
   font-size: 1.2rem;
 }
 
+.container {
+background: url('assets/coming-soon.webp');
+background-size: 200% 100%;
+background-repeat: no-repeat;
+background-position: cover;
+height: 100vh;
+}
+
 }
