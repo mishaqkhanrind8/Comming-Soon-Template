@@ -5,7 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Coming Soon Template is a Prictice Template of w3schools clone">
     <title>Comming Soon Template</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+      /** Reset **/
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  width: min(1399px, 100%);
+  height: 100vh;
+}
+
+body {
+  color: #fff;
+  font-family: Verdana, SSans-Serif;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  letter-spacing: 0.8px;
+  word-spacing: 2.8px;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+height: 100vh;
+background: url('assets/coming-soon.webp');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: cover;
+height: 100vh;
+}
+
+.navbar-brand {
+  padding: 8px 6px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.container-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-8rem);
+  animation: drop 1s ease forwards;
+  animation-delay: 0.7s;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-8rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hr-line {
+  width: 75px;
+  margin: 20px auto;
+  border: 3px solid #fff;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: coral;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-title {
+  font-size: 2.5rem;
+}
+  .hr-line {
+  width: 50px;
+  margin: 20px auto;
+  border: 1px solid #fff;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+}
+
+.container {
+background: url('assets/coming-soon.webp');
+background-size: 200% 100%;
+background-repeat: no-repeat;
+background-position: cover;
+height: 100vh;
+}
+
+}
+    </style>
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -23,6 +140,6 @@
   </div>
 </div>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
