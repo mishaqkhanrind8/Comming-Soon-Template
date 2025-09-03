@@ -90,3 +90,19 @@ height: 100vh;
   color: coral;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+  .hero-title {
+  font-size: 2.5rem;
+}
+  .hr-line {
+  width: 50px;
+  margin: 20px auto;
+  border: 1px solid #fff;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+}
+
+}
