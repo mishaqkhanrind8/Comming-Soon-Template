@@ -1,0 +1,1 @@
+"Coming Soon Template is a Prictice Template of w3schools clone
