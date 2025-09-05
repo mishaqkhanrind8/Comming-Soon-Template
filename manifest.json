@@ -1,18 +1,24 @@
 {
   "name":"Coming Soon Template",
-  "short_name":"Himalayas",
-  "icons":[{"src":"assets/android-chrome-192x192.png",
-  "sizes":"192x192",
-  "type":"image/png"
-},
-
-{
-  "src":"assets/android-chrome-512x512.png",
-  "sizes":"512x512",
-  "type":"image/png"
-}
-],
-  "theme_color":"#ffffff",
-  "background_color":"#ffffff",
-  "display":"standalone"
+  "short_name": "Himalayas",
+  "description": "Coming Soon Template is a trailer template website and PWA App created by Muhammad Ishaq Khan",
+  "id": "/",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "icons": [
+    {
+      "src": "assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
