@@ -4,6 +4,13 @@ if ('serviceWorker' in navigator) {
     .catch(err => console.error('❌ Service Worker registration failed:', err));
 }
 
+window.addEventListener("orientationchange", function() {
+  if (window.orientation === 0 || window.orientation === 180) {
+    console.log("Portrait mode");
+  } else {
+    console.log("Landscape mode");
+  }
+});
 
 function fixHeight() {
   document.querySelector('.container').style.height = window.innerHeight + 'px';
