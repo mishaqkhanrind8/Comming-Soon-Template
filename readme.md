@@ -17,4 +17,4 @@ It includes SEO meta tags, Open Graph, Twitter Card integration, and favicon sup
 - Twitter Card integration  
 - Multiple favicon sizes (16x16, 32x32, 48x48, Apple & Android icons)  
 - PWA support with `manifest.json`  
-- Custom theme color for
+- Custom theme color for 
