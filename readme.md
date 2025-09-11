@@ -6,7 +6,7 @@ It includes SEO meta tags, Open Graph, Twitter Card integration, and favicon sup
 ---
 
 ## 🌐 Live Demo
-👉 [Coming Soon Template](https://comming-soon-templelte.vercel.app/)
+👉 [Coming Soon Template](https://comming-soon-template-omega.vercel.app/)
 
 ---
 
